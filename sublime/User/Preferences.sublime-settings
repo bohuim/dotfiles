@@ -1,0 +1,35 @@
+{
+	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Eighties.tmTheme",
+	"enable_hexadecimal_encoding": true,
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"JavaScript",
+		"Vintage"
+	],
+	"open_files_in_new_window": false,
+	"theme": "Boxy Monokai.sublime-theme",
+	"theme_bar": true,
+	"theme_bar_logo_atomized": true,
+	"theme_bar_shadow_hidden": true,
+	"theme_button_rounded": true,
+	"theme_dropdown_materialized": true,
+	"theme_icons_materialized": true,
+	"theme_scrollbar_rounded": true,
+	"theme_sidebar_border": true,
+	"theme_sidebar_heading_bold": true,
+	"theme_sidebar_highlight_selected_text_only": true,
+	"theme_sidebar_highlight_text_only": true,
+	"theme_sidebar_indent_top_level_disabled": true,
+	"theme_size_md": true,
+	"theme_tab_arrows_hidden": true,
+	"theme_tab_close_always_visible": true,
+	"theme_tab_highlight_text_only": true,
+	"theme_tab_line_size_lg": true,
+	"theme_tab_selected_transparent": true,
+	"theme_tab_selected_underlined": true,
+	"theme_tab_separator": true,
+	"theme_tab_size_xxl": true,
+	"theme_unified": true,
+	"translate_tabs_to_spaces": true
+}

@@ -1,0 +1,4 @@
+// These settings override both User and Default settings for the XML syntax
+{
+    "color_scheme": "Packages/One Dark/One Dark.tmTheme",
+}
