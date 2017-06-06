@@ -1,3 +1,5 @@
+alias c=clear
+
 # edit and source specified file.
 edit-source()
 {
