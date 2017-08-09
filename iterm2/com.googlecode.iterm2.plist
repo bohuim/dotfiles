@@ -231,6 +231,8 @@
 	<true/>
 	<key>DisableFullscreenTransparency</key>
 	<false/>
+	<key>DisableWindowSizeSnap</key>
+	<true/>
 	<key>GlobalKeyMap</key>
 	<dict>
 		<key>0x48-0x120000</key>
@@ -246,13 +248,6 @@
 			<integer>29</integer>
 			<key>Text</key>
 			<string>39E8BF5E-68CC-4221-9F69-7D1176659DCA</string>
-		</dict>
-		<key>0x6b-0x100000</key>
-		<dict>
-			<key>Action</key>
-			<integer>11</integer>
-			<key>Text</key>
-			<string>0x63 0x6c 0x65 0x61 0x72 0x0a</string>
 		</dict>
 		<key>0x7b-0x120000</key>
 		<dict>
@@ -370,11 +365,11 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 139 606 456 0 0 1920 1177 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>11 572 796 473 0 0 1920 1177 </string>
+	<string>11 606 796 473 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>846 269 1074 908 0 0 1920 1177 </string>
+	<string>1070 39 850 1128 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>247 132 570 473 0 0 1920 1177 </string>
+	<string>910 49 1010 1128 0 0 1920 1177 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -955,7 +950,7 @@
 			<key>Normal Font</key>
 			<string>MenloForPowerline-Regular 14</string>
 			<key>Option Key Sends</key>
-			<integer>0</integer>
+			<integer>2</integer>
 			<key>Prompt Before Closing 2</key>
 			<integer>2</integer>
 			<key>Right Option Key Sends</key>
@@ -1049,6 +1044,8 @@
 	<false/>
 	<key>OpenTmuxWindowsIn</key>
 	<integer>2</integer>
+	<key>PMPrintingExpandedStateForPrint2</key>
+	<false/>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -1084,6 +1081,8 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/bohuim/dotfiles/iterm2</string>
+	<key>Print In Black And White</key>
+	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
@@ -1093,7 +1092,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-05-29T21:58:02Z</date>
+	<date>2017-08-09T21:33:29Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1116,6 +1115,10 @@
 	<true/>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
+	<key>findIgnoreCase_iTerm</key>
+	<true/>
+	<key>findRegex_iTerm</key>
+	<false/>
 	<key>iTerm Version</key>
 	<string>3.0.15</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
