@@ -10,3 +10,7 @@ edit-source()
 
     $EDITOR $1 && source $1
 }
+
+
+# Swift
+alias spm='swift package'
