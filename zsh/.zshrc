@@ -4,6 +4,6 @@ ZSH_CUSTOM=~/dotfiles/zsh/custom
 
 ZSH_THEME="spaceship"
 
-plugins=(osx)
+plugins=(osx git)
 
 source $ZSH/oh-my-zsh.sh
