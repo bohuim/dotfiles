@@ -1,4 +1,4 @@
-syntax on
+syntax enable 
 set number
 
 set tabstop=4       " Set visual of \t as 4 spaces.
