@@ -7,8 +7,8 @@
 		"JavaScript",
 		"Vintage"
 	],
-	"scroll_past_end": true,
 	"open_files_in_new_window": false,
+	"scroll_past_end": true,
 	"theme": "Boxy Monokai.sublime-theme",
 	"theme_bar": true,
 	"theme_bar_logo_atomized": true,
