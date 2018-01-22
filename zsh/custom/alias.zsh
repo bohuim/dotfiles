@@ -26,5 +26,4 @@ venv()
 alias spm='swift package'
 
 # Cal, Fall 2017
-alias cs168='ssh cs168-ahj@hive20.cs.berkeley.edu'
 
