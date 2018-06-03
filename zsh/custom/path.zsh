@@ -2,7 +2,8 @@
 export PATH=$PATH:"/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
 # NODE
-export PATH=$PATH:$HOME/.n/bin
+# path for n is set in ~/ZSH_CUSTOM/export.sh
+# export PATH=$PATH:$HOME/.n/bin
 
 # MySQL
 export PATH=$PATH:/Applications/MySQLWorkbench.app/Contents/MacOS
