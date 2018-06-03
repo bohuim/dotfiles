@@ -357,11 +357,11 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>970 777 620 392 0 0 2560 1417 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
-	<string>269 139 606 469 0 0 1920 1177 </string>
+	<string>269 89 606 469 0 0 1920 1177 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>252 701 770 429 0 0 1920 1177 </string>
+	<string>410 490 796 473 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 36 1920 1141 0 0 1920 1177 </string>
+	<string>0 5 1920 1172 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>0 427 1010 750 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -371,6 +371,10 @@
 		<dict>
 			<key>ASCII Anti Aliased</key>
 			<true/>
+			<key>Allow Title Reporting</key>
+			<false/>
+			<key>Allow Title Setting</key>
+			<false/>
 			<key>Ambiguous Double Width</key>
 			<false/>
 			<key>Ansi 0 Color</key>
@@ -1088,11 +1092,11 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-12-01T06:44:33Z</date>
+	<date>2018-02-05T22:30:34Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
-	<false/>
+	<true/>
 	<key>ShowFullScreenTabBar</key>
 	<true/>
 	<key>SwitchPaneModifier</key>

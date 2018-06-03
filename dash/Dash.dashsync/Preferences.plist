@@ -21,12 +21,6 @@
 	<true/>
 	<key>shouldShowStatusIcon</key>
 	<false/>
-	<key>shouldSyncBookmarks</key>
-	<true/>
-	<key>shouldSyncGeneral</key>
-	<true/>
-	<key>shouldSyncView</key>
-	<true/>
 	<key>showInDock</key>
 	<true/>
 	<key>showSearchFallbacks</key>
