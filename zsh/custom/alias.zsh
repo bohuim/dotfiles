@@ -1,4 +1,5 @@
 alias c=clear
+alias vim=nvim
 
 # edit and source specified file.
 edit-source()

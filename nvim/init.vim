@@ -1,27 +1,14 @@
 " ========================================
 " vim-plug
 " ========================================
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.local/share/nvim/plugged')
 
-" Syntax
 Plug 'sheerun/vim-polyglot'
 
-" Theme: OneDark
 Plug 'joshdick/onedark.vim'
 Plug 'itchyny/lightline.vim'
 
-" Autocomplete
-if has('nvim')
-  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-else
-  Plug 'Shougo/deoplete.nvim'
-  Plug 'roxma/nvim-yarp'
-  Plug 'roxma/vim-hug-neovim-rpc'
-endif
-let g:deoplete#enable_at_startup = 1
-
 call plug#end()
-
 
 " ========================================
 " Appearance
