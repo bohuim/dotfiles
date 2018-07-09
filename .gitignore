@@ -1,8 +1,2 @@
 # macOS
 .DS_Store
-
-# Vim Plugins
-vim/**/plugged
-nvim/**/plugged
-nvim/shada/
-
