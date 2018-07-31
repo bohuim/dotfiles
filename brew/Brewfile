@@ -1,16 +1,17 @@
 brew tap 'caskroom/cask'
 
-# ZSH
+# DEV
 # --------------------
 brew 'zsh'
 brew 'zsh-completions'
 
-
-# DEV
-# --------------------
 brew 'git'
-brew 'python3'
+brew 'python3
 brew 'cocoapods'
+
+cask 'iterm2'
+cask 'visual-studio-code'
+# cask 'sublime-text'
 
 # c && c++
 # brew 'gcc'
@@ -22,19 +23,18 @@ brew 'cocoapods'
 # --------------------
 # ↳ utils
     cask 'alfred'
-    cask 'iterm2'
-    cask 'sublime-text'
-    # bartender2
+    cask 'flux'
+    cask 'karabiner'
+    cask 'hyperswitch'
+    # cask bartender3
 # ↳ browsers
     cask 'firefox'
     cask 'google-chrome'
 # ↳ cloud
-    cask 'dropbox'
     cask 'google-drive'
 # ↳ design
     cask 'sketch'
 # ↳ social
-    cask 'franz'
 
 
 # Mac App Store
@@ -42,7 +42,8 @@ brew 'cocoapods'
 mas "1Password",    id: 443987910
 mas "Xcode",        id: 497799835
 mas "Quiver",       id: 866773894
-mas "Discord",      id: 985746746
+mas "Amphetamine",  id: 937984704 
+# mas "Discord",      id: 985746746
 
 
 # School
