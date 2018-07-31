@@ -36,12 +36,16 @@ call plug#end()
 " ========================================
 " Editor
 " ========================================
+set exrc            " Allow per project config
+set secure
+
 set showcmd         " Show the currently inputting command
 set hlsearch        " Highligh search
 
 filetype plugin on
 syntax enable 
 
+set nowrap
 set number          " Line numbers
 " set cursorline      " Highlight current line
 set tabstop=4       " Set visual of \t as 4 spaces.
@@ -65,14 +69,23 @@ let mapleader=" "   " Use space as <LeaderKey>
 let g:BASH_Ctrl_j = 'off'
 noremap <leader>h :noh<cr>
 
+" skip 10 lines instead of pages
+nnoremap <C-d> 10j
+nnoremap <C-u> 10k
+
+" p -> paste on cursor
+" P -> paste after cursor
+nnoremap p P
+vnoremap p P
+nnoremap P p
+vnoremap P p
+
 " Move windows with C-hjkl
 nnoremap <leader>w <C-w>
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-" command width "vertical resize"
-" command height "resize"
 
 " ========================================
 " Appearance
@@ -115,11 +128,21 @@ let g:NERDTrimTrailingWhitespace = 1
 let g:NERDToggleCheckAllLines = 1
 
 let g:NERDCreateDefaultMappings = 0
-nmap cc <plug>NERDCommenterToggle
-vmap cc <plug>NERDCommenterToggle
 nmap <C-_> <plug>NERDCommenterToggle
 vmap <C-_> <plug>NERDCommenterToggle
 
 " Tagbar
-nnoremap <C-O> :TagbarToggle<CR> 
+nnoremap <leader>o :TagbarToggle<CR> 
 
+" CtrlP
+nnoremap <C-o> :CtrlPTag<CR>
+vnoremap <C-o> :CtrlPTag<CR>
+
+" Change moving up and down selection to C-p & C-n
+" history selection as up/down, C-j/C-k
+let g:ctrlp_prompt_mappings = {
+    \ 'PrtSelectMove("j")':   ['<C-n>'],
+    \ 'PrtSelectMove("k")':   ['<C-p>'],
+    \ 'PrtHistory(-1)':       ['<C-k>', '<down>'],
+    \ 'PrtHistory(1)':        ['<C-j>', '<up>'],
+    \ }
