@@ -118,7 +118,7 @@ function! _NERDTreeToggle()
         exe l:currentWindow . "wincmd p"
     endif
 endfunction
-nnoremap <silent> <C-e> :call _NERDTreeToggle()<CR>
+nnoremap <silent> <leader>e :call _NERDTreeToggle()<CR>
 
 " NerdCommenter (ctrl-/ to toggle)
 let g:NERDSpaceDelims = 1
