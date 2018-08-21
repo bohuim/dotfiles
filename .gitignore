@@ -2,4 +2,8 @@
 .DS_Store
 
 alfred/
+brew/
+dash/
+iterm2/
+karabiner/
 vim/
