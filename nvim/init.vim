@@ -5,7 +5,7 @@ set nocompatible
 " ========================================
 " vim-plug
 " ========================================
-call plug#begin('~/.local/share/nvim/plugged')
+call plug#begin('~/.local/share/nvim/site/plugged')
 
 Plug 'joshdick/onedark.vim'     " Color Scheme
 Plug 'itchyny/lightline.vim'    " Status Line
