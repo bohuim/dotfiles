@@ -106,6 +106,8 @@ let g:lightline.colorscheme = 'onedark'
 " Plug Config 
 " ========================================
 " NerdTree
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
 function! _NERDTreeToggle()
     if exists('t:NERDTreeBufName') && bufwinnr(t:NERDTreeBufName) != -1
         " If explorer is active, simply close it
