@@ -1,3 +1,3 @@
 #!/bin/sh
 
-ln -s ~/dotfiles/nvim ~/.local/share/nvim
+ln -s $HOME/dotfiles/nvim ~/.local/share/nvim
