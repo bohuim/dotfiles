@@ -1,5 +1,8 @@
 ; AutoHotKey v1.1.33
 ; Maps CapsLock to ESC when tapped alone, or Ctrl+{Key} on key down.
+; 
+; References
+; https://gist.github.com/sedm0784/4443120
 
 ; Create a group for all apps that should have CapsLock functionality overriden.
 SetTitleMatchMode, 2 ; match anywhere in title string
