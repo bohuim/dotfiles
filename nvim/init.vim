@@ -75,10 +75,10 @@ nnoremap <C-u> 10k
 
 " p -> paste on cursor
 " P -> paste after cursor
-nnoremap p P
-vnoremap p P
-nnoremap P p
-vnoremap P p
+" nnoremap p P
+" vnoremap p P
+" nnoremap P p
+" vnoremap P p
 
 " Move windows with C-hjkl
 nnoremap <leader>w <C-w>
@@ -128,8 +128,12 @@ let g:NERDTrimTrailingWhitespace = 1
 let g:NERDToggleCheckAllLines = 1
 
 let g:NERDCreateDefaultMappings = 0
+" ctrl-/ to toggle
 nmap <C-_> <plug>NERDCommenterToggle
 vmap <C-_> <plug>NERDCommenterToggle
+" ctrl+c to toggle
+nmap <C-c> <plug>NERDCommenterToggle
+vmap <C-c> <plug>NERDCommenterToggle
 
 " Tagbar
 nnoremap <leader>o :TagbarToggle<CR> 
