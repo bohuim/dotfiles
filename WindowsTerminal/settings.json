@@ -49,6 +49,7 @@
                 "hidden": false,
                 "name": "Ubuntu-20.04",
                 "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "\\\\wsl$\\Ubuntu-20.04\\home\\bohuim",
                 "colorScheme": "One Dark"
             },
             {
@@ -67,6 +68,8 @@
         // ## Tabs
         { "command": "duplicateTab", "keys": "alt+t" },
         { "command": "closeTab", "keys": "alt+w" },
+        { "command": "nextTab", "keys": "shift+alt+]" },
+        { "command": "prevTab", "keys": "shift+alt+[" },
         // support for rename tab is coming
         { "command": "tabSearch", "keys": "shift+alt+o" },
         // ## Clipboard
