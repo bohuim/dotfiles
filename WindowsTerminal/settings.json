@@ -70,8 +70,33 @@
         { "command": "closeTab", "keys": "alt+w" },
         { "command": "nextTab", "keys": "shift+alt+]" },
         { "command": "prevTab", "keys": "shift+alt+[" },
-        // support for rename tab is coming
         { "command": "tabSearch", "keys": "shift+alt+o" },
+        // ## Panes
+        { "command": "closePane", "keys": "shift+alt+w" },
+        { "command": { "action": "moveFocus", "direction": "left"  }, "keys": "shift+alt+h" },
+        { "command": { "action": "moveFocus", "direction": "down"  }, "keys": "shift+alt+j" },
+        { "command": { "action": "moveFocus", "direction": "up"    }, "keys": "shift+alt+k" },
+        { "command": { "action": "moveFocus", "direction": "right" }, "keys": "shift+alt+l" },
+        { "command": { "action": "resizePane", "direction": "left"  }, "keys": "ctrl+alt+h" },
+        { "command": { "action": "resizePane", "direction": "down"  }, "keys": "ctrl+alt+j" },
+        { "command": { "action": "resizePane", "direction": "up"    }, "keys": "ctrl+alt+k" },
+        { "command": { "action": "resizePane", "direction": "right" }, "keys": "ctrl+alt+l" },
+        {
+            "command": {
+                "action": "splitPane",
+                "split": "vertical",
+                "splitMode": "duplicate"
+            },
+            "keys": "shift+alt+s"
+        },
+        {
+            "command": {
+                "action": "splitPane",
+                "split": "horizontal",
+                "splitMode": "duplicate"
+            },
+            "keys": "shift+alt+d"
+        },
         // ## Clipboard
         {
             "command": {
