@@ -18,6 +18,7 @@
 
 ; Group: Revamp CapsLock functionality.
 GroupAdd, RevampCapsLock, ahk_exe Code.exe
+GroupAdd, RevampCapsLock, ahk_exe Explorer.EXE
 GroupAdd, RevampCapsLock, ahk_exe WindowsTerminal.exe
 GroupAdd, RevampCapsLock, ahk_exe firefox.exe
 
